@@ -1,1 +1,40 @@
 /* Add CSS styling here */
+
+h1{
+    text-align: center;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.giant-img{
+    display: flex;
+    justify-content: center;
+}
+
+.pics-and-text{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.pics{
+    padding: 1%;
+}
+
+footer{
+    text-align: center;
+    padding: 3%;
+}
