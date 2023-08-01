@@ -1,16 +1,46 @@
 /* Add CSS styling here */
 
-h1{
-    text-align: center;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
 }
 
-.nav-bar{
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+section{
+    padding: 4% 0;
+}
+
+.heading{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2{
+    text-align: center;
+    margin: 2% 0;
+}
+
+h1{
+    font-size: 4rem;
 }
 
 h2{
-    text-align: center;
+    font-size: 3rem;
 }
 
 .about-me{
@@ -22,6 +52,8 @@ h2{
 .giant-img{
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pics-and-text{
@@ -30,11 +62,42 @@ h2{
     padding: 1%;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
 .pics{
     padding: 1%;
+    justify-content: center;
+}
+
+.paragraph{
+    display: flex;
+    justify-content: center;
 }
 
 footer{
     text-align: center;
     padding: 3%;
 }
+
+@media(max-width: 800px){
+
+}
+
+@media(max-width: 500px){
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .pics{
+        width: 35%;
+        margin: 4% 0;
+    }
+
+}
+
+
